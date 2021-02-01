@@ -1,0 +1,84 @@
+/* New stylesheet */
+
+/* [SYNTAX FOR CSS]
+
+selector{
+  property: value;
+  property: value;
+}
+
+color: #RRGGBB
+background-color: #RRGGBB
+*/
+
+a {
+  text-decoration: none;
+}
+
+a:link{
+  color: #ff0000;
+}
+
+a:visited{
+  color: #009900;
+}
+
+a:active {
+  color: #00ffff
+}
+
+a:hover {
+  color: #999900;
+  text-decoration: underline;
+}
+
+
+h1{
+  color: #ffffff;
+  background-color: #770000;
+}
+
+h2{
+  color: #ffffff;
+  background-color: #991111;
+}
+
+h3{
+  color: #ffffff;
+  background-color: #992222;
+}
+
+h4{
+  color: #ffffff;
+  background-color: #993333;
+}
+
+h5{
+  color: #ffffff;
+  background-color: #994444;
+}
+
+/* This can be used multiple times in your html page.*/
+.contactbold{
+  color: #bb6666;
+}
+
+.important{
+  color: #0000aa;
+}
+
+/* Use this only ONCE in your html page.*/
+#divdetail{
+  color: #ffdddd;
+  background-color: #000000;
+}
+
+main{
+  color: #555599;
+  background-color: #ffdddd;
+}
+
+footer{
+  color: #ffffff;
+  background-color: #995555;
+}
