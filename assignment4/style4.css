@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+
+  background-image: url(images/cheems.jpg);
+  background-position: top center;
+}
+
+h1 {
+  color: #FF6200;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #FF6200;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #FF6200;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  color: #FF6200;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h5 {
+  color: #FF6200;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.imgborder {
+  border: 10px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.textcenter {
+  text-align: center;
+}
+/* I ended up just slapping this class into the footer paragraph found on the first page. It then occurred to me that I could have just gone and modified that footer class, or even messed with it through here. Hence, I decided to see if I could declare modifiers from different .css pages.
+
+In short: Yes, I can!
+
+From my outsider's perspective, this seems bad and ugly, as well as something that'd probably get me exasperated or concerned emails from colleagues if I did this in the workplace.
+But uh, I can't say for certain, so here's this longwinded comment explaining my thought process.
+*/
+footer {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
