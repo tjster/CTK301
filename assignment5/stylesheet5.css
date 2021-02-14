@@ -1,0 +1,54 @@
+body {
+  background-image: url("Soul.png");
+  background-repeat: no-repeat;
+  font-family: helvetica;
+  width: 640px;
+  margin: 0;
+}
+
+.pagetop {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: right;
+  padding-right: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 115px;
+  margin-left: 10px;
+  padding-top: 0px;
+  font-family: Impact;
+  font-size: 105pt;
+  color: #197BD2;
+  /*border: 1px solid #ff0000;*/
+}
+
+#fontorange {
+  color: #FFA500;
+}
+
+.pagebottom {
+  margin: 505px 5px 0;
+  font-size: 8pt;
+  text-align: center;
+  color: #197BD2;
+  padding: 0;
+}
+
+b {
+  font-size: 12pt;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+p b a {
+  color: #197BD2;
+  text-decoration: none;
+}
+
+.movierating {
+  margin-left: 235px;
+}
