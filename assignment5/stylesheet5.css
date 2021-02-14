@@ -49,6 +49,11 @@ p b a {
   text-decoration: none;
 }
 
+p b a:hover{
+  color: #FFA500;
+  text-decoration: underline;
+}
+
 .movierating {
   margin-left: 235px;
 }
