@@ -1,0 +1,141 @@
+body {
+  background-color: gray;
+}
+
+#wrapper {
+  width: 960px;
+  border: 3px solid darkblue;
+  background-color: #ffffff;
+  margin: 1em auto 0 auto;
+  padding: 0;/*1em;*/
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+header {
+  grid-column: span 12;
+  font-family: helvetica;
+  color: #90e0ff;
+  background-image: linear-gradient(to top, #003b94, #0059ac, #0076bd, #0093ca, #00aed3);
+  font-style: italic;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+header:hover {
+  grid-column: span 12;
+  font-family: helvetica;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #003b94, #0059ac, #0076bd, #0093ca, #00aed3);
+  font-style: italic;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+header a {
+  text-decoration: none;
+  color: #90e0ff;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav {
+  /* this is that blue bar with four buttons, only three used */
+  background-color: darkblue;
+  border: 3px solid darkblue;
+  grid-column: span 12;
+  border-left: 0;
+  border-right: 0;
+}
+
+nav ul {
+  grid-column: span 12;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+nav li {
+  display: inline-block;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+nav li a {
+  width: 269px; /* It isn't pretty by way of implementation, but 'grid-column: span' wasn't cooperating for these specific elements. */
+  display: inline-block;
+  color: #90e0ff;
+  padding: 1em;
+  padding-left: 2em;
+  background-color: #cc0000;
+  text-decoration: none;
+  background-image: linear-gradient(to top, #003b94, #0059ac, #0076bd, #0093ca, #00aed3);
+}
+
+nav li a:hover {
+  color: #ffffff;
+  padding: 1em;
+  padding-left: 2em;
+  background-color: #cc0000;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #003b94, #0059ac, #0076bd, #0093ca, #00aed3);
+}
+
+main {
+  padding: 1em;
+  grid-column: span 12;
+  grid-row: span 24; /* probably want to delete this */
+}
+
+main a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: darkblue;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+  border-top: 3px solid darkblue;
+  grid-column: span 12;
+  background-color: red;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+h2 {
+  color: darkblue;
+  font-family: helvetica;
+}
+
+.welcome {
+  text-align: justify;
+  font-weight: bold;
+}
+
+.divider {
+  border-bottom: 2px solid darkblue;
+}
+
+.floatimageleft {
+  margin: 0 20px 20px 0;
+  float: left;
+  border: 2px solid darkblue;
+}
+
+.floatimageright {
+  margin: 0 0 20px 20px;
+  float: right;
+  border: 2px solid darkblue;
+}
