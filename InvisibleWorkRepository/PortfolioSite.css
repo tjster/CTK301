@@ -67,6 +67,7 @@ h4 {
 }
 
 .gallerybox {
+  text-align: center;
   margin: 1em;
   padding: 1em;
   width: 300px;
@@ -100,7 +101,7 @@ nav li a {
   display: inline-block;
   color: #FF8BBA;
   padding: 1em;
-  margin: 2em .5em 1em .5em;
+  margin: 0em .5em 1em .5em;
   background-color: #540022;
   text-decoration: none;
   box-shadow: 5px 5px 10px #000; /* x, y, blur, color */
@@ -123,6 +124,7 @@ nav {
   /* this is that blue bar with four buttons, only three used */
   background-color: #2E0E25;
   grid-column: span 12;
+  text-align: center;
   border-left: 0;
   border-right: 0;
 }
@@ -137,4 +139,10 @@ nav ul {
 nav li {
   display: inline-block;
   font-weight: bold;
+}
+
+.floatimageleft {
+  margin: 0 20px 20px 0;
+  float: left;
+  border: 2px solid #B8CBFF;
 }
