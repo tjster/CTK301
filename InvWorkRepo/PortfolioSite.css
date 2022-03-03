@@ -1,12 +1,12 @@
 body {
-  background-color: #111111;
+  background-color: #2E0E25;
   font-family: 'Titillium Web', sans-serif;
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
+  border: 0px solid black;
   /*padding: 24px;*/
   background-color: #000000;
   display: grid;
